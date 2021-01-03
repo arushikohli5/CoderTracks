@@ -509,7 +509,7 @@ h4.team-member-designation{
 }
 
 #accordian .card-header a:after,
-#accordian .card-header a.collapse:after{
+#accordian .card-header a.collapsed:after{
     color: white;
     text-decoration: none;
     content: "\f068";
@@ -525,8 +525,15 @@ h4.team-member-designation{
     position: absolute;
     top: 30px;
     left: -5px;
+    transition: all 0.3s ease 0s;
 }
 
+#accordian .card-header a.collapsed:after{
+    content: "\f067";
+}
+
+#accordian .card-header a:hover:after,
+#accordian .card-header a.collapsed:hover:after{
 
 
 
