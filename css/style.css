@@ -678,16 +678,41 @@ h4.team-member-designation{
     color: white;
 }
 
+.news-content{
+    padding: 20px;
+    margin-left: -20px;
+}
+
+.news-content i{
+    font-size: 18px;
+    display: inline-block;
+}
 
 
+.news-content .fa{
+    padding: 10px 10px;
+    cursor: pointer;
+}
 
+.news-content .fa-facebook{
+    color: #3b5998;
+}
 
+.news-content .fa-twitter{
+    color: #0084b4;
+}
 
+.news-content .fa-linkedin{
+    color: #0077b5;
+}
 
+.news-content .fa-youtube{
+    color: red;
+}
 
-
-
-
+.news-content .fa-whatsapp{
+    color: #34a523;
+}
 
 
 
