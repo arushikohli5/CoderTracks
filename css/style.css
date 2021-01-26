@@ -714,10 +714,18 @@ h4.team-member-designation{
     color: #34a523;
 }
 
+.news-content p{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: justify;
+}
 
-
-
-
+.news-content a{
+    font-size: 14px;
+    background-color: #34495e;
+    padding: 10px 20px;
+    color: white;
+}
 
 
 
