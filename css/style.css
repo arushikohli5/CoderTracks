@@ -725,7 +725,32 @@ h4.team-member-designation{
     background-color: #34495e;
     padding: 10px 20px;
     color: white;
+    transition: all 0.5s ease-in;
 }
+
+.news-content a:hover{
+    font-size: 14px;
+    border: 1px solid #34495e;
+    border-top-right-radius: 20px;
+    background-color: transparent;
+    color: #34495e;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
