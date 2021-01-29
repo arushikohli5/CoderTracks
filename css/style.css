@@ -7,25 +7,29 @@
 ==============================*/
 
 .conback{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/contactUs.jpg);
-    
-    background-size: auto;
-    height: 100%;
-    width: 100%;
-    background-position: relative;
+   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/contactUs.jpg);
+    padding-top: 180px;
+    background-size: cover;
+    -wbkit-background-size: cover;
+    -mos-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    padding-bottom: 180px;
+    overflow: hidden;
+    background-attachment: fixed;
     color: white;
 }
 
 .conTextHeading{
-    margin-top: 50px;
-    padding: 50px 50px;
+    margin-top: 0px;
+    /*padding: 10px 10px;*/
     font-size: 50px;
     font-weight: bold;
     font-family: sans-serif;
 }
 
 .formHeading{
-    padding: 50px 50px;
+    padding: 10px 10px;
     font-size: 25px;
     font-weight: bold;
     font-family: sans-serif;
