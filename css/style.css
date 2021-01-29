@@ -1,4 +1,45 @@
 /*============================
+==============================
+==============================
+            contact us
+==============================
+=============================
+==============================*/
+
+.conback{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/contactUs.jpg);
+    
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    color: white;
+}
+
+.conTextHeading{
+    margin-top: 50px;
+    padding: 50px 50px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+
+
+
+/*============================
+==============================
+==============================
+            index
+==============================
+=============================
+==============================*/
+
+
+
+
+/*============================
             navbar
 ==============================*/
 
@@ -745,6 +786,26 @@ h4.team-member-designation{
 
 .stat{
     background-image: url(/img/cover-bg-1.jpg);
+    background-position: center;
+    padding-top: 180px;
+    padding-bottom: 200px;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+
+.stat i{
+    font-size: 80px;
+}
+
+.stat-items h2{
+    font-weight: bolder;
+    font-size: 42px;
+    color: deepskyblue;
+}
+
+.stat-itemps p{
+    letter-spacing: 1px;
 }
 
 
