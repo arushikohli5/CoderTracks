@@ -27,12 +27,7 @@ var typed = new Typed('.anitext', {
         loop: true
     });
 
-var typed = new Typed('.conTextHeading', {
-        strings: ['CONTACT US'],
-        typeSpeed: 60,
-        backSpeed: 60,
-        loop: true
-    });
+
 
 $(window).scroll(function () {
     "use strict";
